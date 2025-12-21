@@ -1,0 +1,80 @@
+🚗 MechAI – AI-Powered Car Mechanic Chatbot
+
+MechAI is an intelligent automobile troubleshooting chatbot designed to help car owners, enthusiasts, and technicians diagnose vehicle issues quickly and accurately. It uses Large Language Models (LLMs) combined with Retrieval-Augmented Generation (RAG) to provide reliable, domain-specific automotive solutions.
+
+🚀 Project Overview
+
+MechAI answers vehicle-related problems such as engine issues, warning lights, braking problems, and maintenance queries. Instead of generic AI responses, it retrieves relevant automotive knowledge from a curated dataset and generates precise, context-aware answers.
+
+The chatbot can also provide top YouTube repair references and is designed to be scalable for real-world automotive assistance.
+
+🎯 Key Objectives
+
+Provide instant vehicle troubleshooting assistance
+
+Reduce dependency on manual diagnosis
+
+Deliver accurate, automotive-specific answers
+
+Improve user understanding of car problems
+
+Assist users before visiting a mechanic
+
+🛠️ Tech Stack
+Frontend
+
+React.js
+
+JavaScript, HTML, CSS
+
+Backend
+
+Python (Flask / FastAPI)
+
+REST APIs
+
+AI & NLP
+
+LLaMA 3 (via Groq API)
+
+Retrieval-Augmented Generation (RAG)
+
+Hugging Face Embeddings
+
+LlamaIndex
+
+Vector Database
+
+Pinecone (Automotive knowledge storage)
+
+External APIs
+
+YouTube Data API (repair video references)
+
+⚙️ How MechAI Works
+
+User asks a vehicle-related question
+
+Query is embedded using NLP embeddings
+
+Relevant automotive data is retrieved from Pinecone
+
+LLaMA 3 generates a context-aware response
+
+Chatbot returns concise technical guidance
+
+Optionally provides top YouTube repair references
+
+✨ Features
+
+AI-based car problem diagnosis
+
+Automotive-only response filtering
+
+RAG-based accurate answers
+
+YouTube repair video suggestions
+
+Fast and lightweight chatbot interface
+
+Scalable backend architecture
